@@ -6,7 +6,7 @@ An Azure enterprise application is required with the below permissions configure
 
 # Permissions required: 
 - OnlineMeetings.ReadWrite.All
-    - Ability to create online meetings for users. Also requires CS Policy https://learn.microsoft.com/en-us/graph/cloud-communication-online-meeting-application-access-policy (ParentTeacherMeetings-AppPolicy)    
+    - Ability to create online meetings for users.    
 - GroupMember.Read.All
     - Reads all users from Azure groups    
 - User.Read.All
