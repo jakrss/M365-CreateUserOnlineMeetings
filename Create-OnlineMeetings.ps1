@@ -10,7 +10,7 @@
 Import-Module Microsoft.Graph.CloudCommunications
 
 #### Permissions required: 
-# OnlineMeetings.ReadWrite.All    = Ability to create online meetings for users. Also requires CS Policy https://learn.microsoft.com/en-us/graph/cloud-communication-online-meeting-application-access-policy (ParentTeacherMeetings-AppPolicy)
+# OnlineMeetings.ReadWrite.All    = Ability to create online meetings for users.
 # GroupMember.Read.All            = Reads all users from Azure groups
 # User.Read.All                   = Ability to read user attributes in Azure. This is only required as we are reading additional properties such as OnPremisesSamAccountName, otherwise you can use User.ReadBasic.All for only basic account info.
 
